@@ -1,0 +1,34 @@
+.categories-container {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .categories-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .categories-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category {
+    /* Estilos para las categorías que no están seleccionadas */
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .selected-category {
+    /* Estilos para las categorías seleccionadas */
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #4CAF50;
+    color: white;
+  }
